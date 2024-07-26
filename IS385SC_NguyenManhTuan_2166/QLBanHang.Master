@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="QLBanHang.master.cs" Inherits="IS385SC_NguyenManhTuan_2166.QLBanHang" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="display:flex; width:100%;">
+            <div style="width:15%">
+                <asp:DataList ID="DataList1" runat="server">
+                    <ItemTemplate>
+                        <asp:LinkButton ID="LinkButton1" runat="server" Text='<%# Eval("TenDanhMuc") %>' CommandArgument='<%# Eval("MaDanhMuc")%>' OnClick="LinkButton1_Click"></asp:LinkButton>
+                    </ItemTemplate>
+                </asp:DataList>
+            </div>
+            <div style="width:65%">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div style="width:20%">
+                <asp:Login ID="Login1" runat="server" ></asp:Login> <br />
+                Số Lượng truy cập: <asp:Label ID="lblSoLuongTruyCap" runat="server" Text="Label"></asp:Label>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
