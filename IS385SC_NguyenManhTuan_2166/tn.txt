@@ -1,0 +1,50 @@
+﻿NET Framework có các thành phần nào sau đây?
+*D. Tất cả đều đúng
+  
+Đâu là tag tạo ra tiêu đề web kích cỡ lớn nhất.
+*B. h1
+  
+JavaScript là ngôn ngữ xử lý ở:
+*C. Server/client
+  
+Common Language Runtime cung cấp những tính năng nào?
+*B. Quản lý bộ nhớ tự động, tương thích ngôn ngôn ngữ, nền tảng độc lập, quản lý an ninh, cung cấp kiểu an toàn.
+
+.NET Framework có các thành phần nào sau đây?
+*D. Tất cả đều đúng
+  
+Để class sử dụng interface nó phải:
+*D. Tất cả các đáp án này
+  
+Dòng nào tuân theo đúng cú pháp của CSS?
+*A. body {color: black}
+
+Trang Web động có phần mở rộng tùy theo ngôn ngữ kịch bản phía trình chủ cụ thể nếu là trang ASP.Net thì sẽ có phần mở rộng là:
+*A. .aspx
+  
+isPostBack có cho Form nào dưới đây:
+*C. Webforms
+  
+Phát biểu nào sau đây là sai?
+*C. Một lớp con có thể kế thừa từ nhiều lớp cha
+  
+Ứng dụng web không sử dụng các control nào
+*B. Windows controls
+  
+NET Framework. Cung cấp một môi trường runtime được gọi là ?
+*B. CLR
+  
+Phạm vi truy cập mặc định của lớp khi chúng ta không khai báo là gì?
+*C. Internal
+  
+Để thực thi giá trị đơn, ta dùng phương thức nào sao đây của đối tượng command:
+*B. ExecuteScalar()
+  
+Mọi class đều trực tiếp hoặc gián tiếp mở rộng lớp nào sau đây:
+*B. Object
+  
+Giả sử ta có lớp SinhVien(), cú pháp tạo đối tượng sinh viên (sv) nào sau đây là đúng?
+*B. SinhVien sv = new SinhVien();
+
+Khai báo một mảng như sau: int[,] numbers = new int[3, 2] { { 1, 2 }, { 3, 4 }, { 5, 6 } }. câu lệnh: numbers.Length cho kết quả là
+*D. 6
