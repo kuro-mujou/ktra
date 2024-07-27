@@ -42,10 +42,6 @@ namespace IS385SC_NguyenManhTuan_2166
             }
             return dataTable;
         }
-        public void crud(string querry)
-        {
-
-        }
     }
 }
 
